@@ -1,0 +1,1 @@
+function evenOdd(num, num2) { let obj = {}; for (let i = num; i <= num2; i++) { if (num === 0 && num2 === 0){ obj = {}; } else if(i % 2 !== 0) { obj[i] = "odd" } else{ obj[i] = "even" } } return obj; };
